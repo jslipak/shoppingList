@@ -14,6 +14,7 @@ function putList() {
   };
 };
 
+
 function deleteButton(li) {
   var buttonDelete = document.createElement("button");  
   var id = "id" + input.value 
@@ -30,7 +31,7 @@ function removeItem(){
   }
 }
 
-function change() {
+function change () {
    this.classList.toggle("done");
 };
 function forListen(objecthtml , callFunc) { // 
